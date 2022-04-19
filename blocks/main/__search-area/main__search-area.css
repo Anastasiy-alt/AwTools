@@ -1,0 +1,9 @@
+.main__search-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    width: calc(100vw * 0.34722);
+    padding: 0;
+    margin-bottom: calc(100vw * 0.06944);
+}

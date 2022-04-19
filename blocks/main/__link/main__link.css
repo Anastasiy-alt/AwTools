@@ -1,0 +1,12 @@
+.main__link {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.main__img:last-child {
+    margin-right: 0;
+}
+
+.main__link:hover .main__img {
+    fill: #FF6E30;
+}

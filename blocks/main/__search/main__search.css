@@ -1,0 +1,20 @@
+.main__search {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFF;
+    height: 42px;
+    border: 0;
+    background: #283036;
+    border-radius: 15px;
+    background-image: url("../../../image/searchSEARCH.svg");
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+}
+
+.main__search::placeholder {
+    color: rgba(255, 255, 255, 0.38);
+}

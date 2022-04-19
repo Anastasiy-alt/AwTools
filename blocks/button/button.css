@@ -1,0 +1,21 @@
+button {
+    color: #FFF;
+    background-color: #1E252B;
+    border: 0;
+    border-radius: 8px;
+    transition: background-color .5s;
+}
+
+.button:hover {
+    outline-offset: -1px;
+    background-color: #FF6E30;
+    outline: 1px solid #FF6E30;
+}
+
+.button:focus {
+    opacity: 1;
+}
+
+.button:active {
+    opacity: .4;
+}

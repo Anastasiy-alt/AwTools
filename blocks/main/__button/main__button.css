@@ -1,0 +1,8 @@
+.main__button {
+    margin-left: -130px;
+    width: 130px;
+    background: #FF6E30;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 34px;
+}

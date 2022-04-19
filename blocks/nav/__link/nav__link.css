@@ -1,0 +1,18 @@
+.nav__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 55%;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    text-shadow: 1.5px 1px #FF6E30;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
