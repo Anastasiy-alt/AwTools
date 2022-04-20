@@ -10,6 +10,7 @@ button {
     outline-offset: -1px;
     background-color: #FF6E30;
     outline: 1px solid #FF6E30;
+    cursor: pointer;
 }
 
 .button:focus {

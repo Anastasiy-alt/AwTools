@@ -1,0 +1,14 @@
+.tools__like {
+    grid-area: like;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tools__like:hover .tools__like-icon {
+    fill: #FD3B41;
+    fill-opacity: 1;
+}

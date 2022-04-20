@@ -1,0 +1,8 @@
+.brand__brands {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: calc(0.0354167 * 100vw);
+}

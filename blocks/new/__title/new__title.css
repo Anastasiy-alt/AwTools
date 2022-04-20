@@ -1,0 +1,7 @@
+.new__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: calc(100vw * 0.033);
+    line-height: 130%;
+}

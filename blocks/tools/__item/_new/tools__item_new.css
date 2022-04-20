@@ -1,0 +1,4 @@
+.tools__item_new {
+    display: grid;
+    grid-template-columns: calc(100vw * 0.034722) calc(100vw * 0.034722) calc(100vw * 0.029861) calc(100vw * 0.073611);
+}

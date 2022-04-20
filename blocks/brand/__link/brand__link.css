@@ -1,0 +1,4 @@
+.brand__link:hover .brand__logo {
+    fill: #FF6E30;
+    fill-opacity: 1;
+}

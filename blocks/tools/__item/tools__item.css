@@ -1,0 +1,43 @@
+.tools__item {
+    padding: calc(100vw * 0.0229167);
+    display: grid;
+    grid-template-columns: calc(100vw * 0.034722) calc(100vw * 0.034722) calc(100vw * 0.08611) calc(100vw * 0.073611);
+    grid-template-rows: calc(100vw * 0.025) calc(100vw * 0.01875) calc(100vw * 0.0833) calc(100vw * 0.029167);
+    grid-template-areas:
+        "icon icon name name"
+        "icon icon cost cost"
+        "text text text text"
+        "like file . button";
+    border: 2px solid #1E252B;
+    transition: background-color .5s;
+    transition: margin-top .5s;
+}
+
+.tools__item:hover {
+    background: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    border: 2px solid;
+    border-image-source: linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+    background-image: url("../../../image/Ellipse\ 194.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    margin-top: -15px;
+}
+
+.tools__item:hover .tools__button {
+    color: #FFF;
+    background-color: #FF6E30;
+}
+
+.tools__item:hover .tools__name {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.tools__item:hover .tools__cost {
+    color: #FFA537;
+}
+
+.tools__item:hover .tools__text {
+    color: rgba(255, 255, 255, 0.78);
+}

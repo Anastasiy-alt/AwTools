@@ -1,0 +1,13 @@
+.footer__text {
+    margin: 0;
+    padding: 0;
+    margin: 20px 0 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__text:last-child {
+    margin: 0;
+}

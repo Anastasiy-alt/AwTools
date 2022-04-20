@@ -1,0 +1,12 @@
+.tools__name {
+    margin: 0;
+    padding: 0;
+    grid-area: name;
+    font-weight: 500;
+    font-size: calc(100vw * 0.01667);
+    line-height: calc(100vw * 0.025);
+    color: rgba(255, 255, 255, 0.78);
+    text-align: start;
+}
+
+/* При ховере цвет:  color: rgba(255, 255, 255, 0.9);*/

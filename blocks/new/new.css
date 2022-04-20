@@ -1,0 +1,9 @@
+.new {
+    margin-top: 200px;
+    margin-left: calc(100vw * 0.06944);
+    margin-right: calc(100vw * 0.06944);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}

@@ -1,0 +1,11 @@
+.tools {
+    margin-left: calc(100vw * 0.06944);
+    margin-right: calc(100vw * 0.06944);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}

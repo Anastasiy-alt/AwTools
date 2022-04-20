@@ -1,0 +1,12 @@
+.tools__cost {
+    margin: 0;
+    padding: 0;
+    grid-area: cost;
+    font-weight: 400;
+    font-size: calc(100vw * 0.0125);
+    line-height: calc(100vw * 0.01875);
+    text-align: start;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+/* При ховере цвет:  color: #FFA537;*/
